@@ -11,7 +11,7 @@ from os.path import exists
 
 
 def start(path, raiseError=False):
-    __920834029384084 = None
+    __920834029384084 = None # Named randomly
     
     if exists(path):
         if raiseError is False:
