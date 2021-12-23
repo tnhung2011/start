@@ -14,13 +14,13 @@ def start(path, raiseError=False):
     __920834029384084 = None
     
     if exists(path):
+        if raiseError is False:
+            return True        
+        
         if isfile():
             startfile(path)
         else:
             open(path)
-            
-        if raiseError is False:
-            return True
     else:
         __920834029384084 = open(path)
         if __920834029384084 is False:
